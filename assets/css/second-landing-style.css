@@ -18,7 +18,7 @@
 }
 .dinner-recipe-section .h2 {
     background-color: rgb(255, 244, 95);
-    border: solid green ;
+    border: 0;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -54,6 +54,7 @@
 .btn {
 font-family: 'Black Ops One';
 background-color: rgb(226,89,183);
+border:0;
 }
 .lunch-recipe-section {
     background-image: linear-gradient(135deg, #e6fcb0 25%, #ffffff 25%, #ffffff 50%, #e6fcb0 50%, #e6fcb0 75%, #ffffff 75%, #ffffff 100%);
@@ -79,6 +80,13 @@ background-size: 56.57px 56.57px;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+.drinks-recipe-section .btn {
+    font-family: 'Black Ops One';
+    background-color: rgb(162,28,231) ;
+}
+.drinks-recipe-section .card-body {
+    background-color:#7BE1F8;
 }
 .navbar {
     background-color: black;
