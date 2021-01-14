@@ -75,7 +75,7 @@ background-size: 56.57px 56.57px;
     background-color: rgb(58,136,0);
 }
 .drinks-recipe-section .h2 {
-    background-color: rgb(162,28,231);
+    background-color: #F49718;
     border: 0;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
@@ -83,10 +83,10 @@ background-size: 56.57px 56.57px;
 }
 .drinks-recipe-section .btn {
     font-family: 'Black Ops One';
-    background-color: rgb(162,28,231) ;
+    background-color: #F49718 ;
 }
 .drinks-recipe-section .card-body {
-    background-color:#7BE1F8;
+    background-color:#FFE46C;
 }
 .navbar {
     background-color: black;
