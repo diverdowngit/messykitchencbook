@@ -1,0 +1,81 @@
+.breakfast-recipe-section .h2{
+    background-color: rgb(31,210,230);
+    border: solid red ;
+    font-family: 'Black Ops One';
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.breakfast-recipe-section .btn {
+    background-color:rgb(31,210,230) ;
+    font-family: 'Black Ops One';
+}
+.dinner-recipe-section .h2 {
+    background-color: rgb(231,109,28);
+    border: solid green ;
+    font-family: 'Black Ops One';
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.desserts-recipe-section {
+    border: solid green;
+    background-color:;
+}
+.recipe-container-row1 {
+    border: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.recipe-container-row2 {
+    border: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.desserts-recipe-section {
+    background-image: linear-gradient(135deg, #f9f871 25%, #ffffff 25%, #ffffff 50%, #f9f871 50%, #f9f871 75%, #ffffff 75%, #ffffff 100%);
+    background-size: 56.57px 56.57px;
+}
+.desserts-recipe-section .h2 {
+    background-color: rgb(226,89,183);
+    border: solid red ;
+    font-family: 'Black Ops One';
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.card-body {
+    background-color: rgb(238, 193, 141);
+}
+.btn {
+font-family: 'Black Ops One';
+background-color: rgb(226,89,183);
+}
+.lunch-recipe-section {
+    background-image: linear-gradient(135deg, #e6fcb0 25%, #ffffff 25%, #ffffff 50%, #e6fcb0 50%, #e6fcb0 75%, #ffffff 75%, #ffffff 100%);
+background-size: 56.57px 56.57px;
+}
+.lunch-recipe-section .h2 {
+    background-color: rgb(58,136,0);
+    border: 0 ;
+    font-family: 'Black Ops One';
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.lunch-recipe-section .card-body{
+    background-color: rgb(242, 245, 78);
+}
+.lunch-recipe-section .btn {
+    font-family: 'Black Ops One';
+    background-color: rgb(58,136,0);
+}
+.drinks-recipe-section .h2 {
+    background-color: rgb(162,28,231);
+    border: 0;
+    font-family: 'Black Ops One';
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.navbar {
+    background-color: black;
+}
+.footer {
+    background-color: black;
+}
