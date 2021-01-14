@@ -21,12 +21,12 @@
     background-color:;
 }
 .recipe-container-row1 {
-    border: solid yellow;
+    border: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 .recipe-container-row2 {
-    border: solid yellow;
+    border: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
@@ -54,7 +54,7 @@ background-size: 56.57px 56.57px;
 }
 .lunch-recipe-section .h2 {
     background-color: rgb(58,136,0);
-    border: solid red ;
+    border: 0 ;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -68,7 +68,7 @@ background-size: 56.57px 56.57px;
 }
 .drinks-recipe-section .h2 {
     background-color: rgb(162,28,231);
-    border: solid red ;
+    border: 0;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
