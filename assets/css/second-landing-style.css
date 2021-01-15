@@ -1,27 +1,38 @@
+
 .breakfast-recipe-section {
-    background-image: linear-gradient(135deg, #c4fcf0 25%, #ffffff 25%, #ffffff 50%, #c4fcf0 50%, #c4fcf0 75%, #ffffff 75%, #ffffff 100%);
-    background-size: 56.57px 56.57px;;
+    background-image: linear-gradient(135deg, #fcfcd4 25%, #ffeace 25%, #ffeace 50%, #fcfcd4 50%, #fcfcd4 75%, #ffeace 75%, #ffeace 100%);
+background-size: 56.57px 56.57px;
 }
 .breakfast-recipe-section .h2{
-    background-color: rgb(31,210,230);
+    background-color: #5FB6D8;
     border: 0;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 .breakfast-recipe-section .btn {
-    background-color:rgb(31,210,230) ;
+    background-color:#5FB6D8 ;
     font-family: 'Black Ops One';
 }
 .breakfast-recipe-section .card-body {
-    background-color: rgb(247, 248, 123);
+    background-color:#C5F8FF;
+}
+.dinner-recipe-section {
+    background-image: linear-gradient(135deg, #ffffd0 25%, #ffd985 25%, #ffd985 50%, #ffffd0 50%, #ffffd0 75%, #ffd985 75%, #ffd985 100%);
+background-size: 56.57px 56.57px;
 }
 .dinner-recipe-section .h2 {
-    background-color: rgb(255, 244, 95);
+    background-color: #439040;
     border: 0;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+.dinner-recipe-section .btn {
+    background-color: #439040;
+}
+.dinner-recipe-section .card-body {
+    background-color: #97BF90;
 }
 .desserts-recipe-section {
     border: 0;
@@ -38,41 +49,53 @@
     padding-bottom: 0.5em;
 }
 .desserts-recipe-section {
-    background-image: linear-gradient(135deg, #f9f871 25%, #ffffff 25%, #ffffff 50%, #f9f871 50%, #f9f871 75%, #ffffff 75%, #ffffff 100%);
-    background-size: 56.57px 56.57px;
+    background-image: linear-gradient(135deg, #ffffd0 25%, #e0f8d1 25%, #e0f8d1 50%, #ffffd0 50%, #ffffd0 75%, #e0f8d1 75%, #e0f8d1 100%);
+background-size: 56.57px 56.57px;
 }
 .desserts-recipe-section .h2 {
-    background-color: rgb(226,89,183);
+    background-color:#D47AA5;
     border: 0;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+.desserts-recipe-section .btn {
+    background-color:#D47AA5;
+}
+.desserts-recipe-section .card-body {
+    background-color:#FFBCE0;
+}
+.card {
+    border: 0;
 }
 .card-body {
     background-color: rgb(238, 193, 141);
 }
 .btn {
 font-family: 'Black Ops One';
-background-color: rgb(226,89,183);
 border:0;
 }
 .lunch-recipe-section {
-    background-image: linear-gradient(135deg, #e6fcb0 25%, #ffffff 25%, #ffffff 50%, #e6fcb0 50%, #e6fcb0 75%, #ffffff 75%, #ffffff 100%);
+    background-image: linear-gradient(135deg, #ffffd0 25%, #e6fcb0 25%, #e6fcb0 50%, #ffffd0 50%, #ffffd0 75%, #e6fcb0 75%, #e6fcb0 100%);
 background-size: 56.57px 56.57px;
 }
 .lunch-recipe-section .h2 {
-    background-color: rgb(58,136,0);
+    background-color: #F2F54E;
     border: 0 ;
     font-family: 'Black Ops One';
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 .lunch-recipe-section .card-body{
-    background-color: rgb(242, 245, 78);
+    background-color:#A6CCBA;
 }
 .lunch-recipe-section .btn {
     font-family: 'Black Ops One';
-    background-color: rgb(58,136,0);
+    background-color:#F2F54E;
+}
+.drinks-recipe-section {
+    background-image: linear-gradient(135deg, #fdf0ca 25%, #ffffff 25%, #ffffff 50%, #fdf0ca 50%, #fdf0ca 75%, #ffffff 75%, #ffffff 100%);
+background-size: 56.57px 56.57px;
 }
 .drinks-recipe-section .h2 {
     background-color: #F49718;
