@@ -1,0 +1,23 @@
+*{
+    font-family: 'Black Ops One';
+
+}
+
+.slidepick{
+    height: 300px;
+    width: 100%;
+}
+
+.landing-page {
+    background: white url("/assets/images/messy-kitchen-workplace.jpg") no-repeat scroll center;
+    ;
+    background-size: cover;
+    height: 80vh;
+    color: #c8cfcf;
+
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}

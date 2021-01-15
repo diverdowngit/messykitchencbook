@@ -1,3 +1,7 @@
+*{
+    font-family: 'Black Ops One';
+
+}
 .recipe-step-title{
   
     font-family: "Black Ops One";
@@ -8,3 +12,10 @@ background-color: beige;
 color:black
 
 }
+
+.imgsize{
+
+    height: auto;
+    width: 600px;
+}
+
