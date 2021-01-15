@@ -1,51 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <title>The Messy Kitchen</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/recipe.css">
-</head>
-<body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid recipe-step-title ">
-            <a href="#" class="navbar-brand">The Messy Kitchen</a>
-            <div class="collapse navbar-collapse">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search for a recipe" aria-label="Search for a recipe">
-                </form>
-            </div>
-            <div class="collapse navbar-collapse text-right">
-                <ul class="navbar-nav ms-auto flex-nowrap">
-                    <li class="nav-item">
-                        <a href="./index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./second-landing-breakfast.html" class="nav-link">Breakfast</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./second-landing-lunch.html" class="nav-link">Lunch</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./second-landing-dinner.html" class="nav-link">Dinner</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./second-landing-drinks.html" class="nav-link">Beer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./second-landing-desserts.html" class="nav-link">Dessert</a>
-                    </li>
-                </ul>
-            </div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/recipe.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid recipe-step-title">
+          <a href="#" class="navbar-brand">The Messy Kitchen</a>
+          <div class="collapse navbar-collapse">
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search for a recipe"
+                aria-label="Search for a recipe"
+              />
+            </form>
+          </div>
+          <div class="collapse navbar-collapse text-right">
+            <ul class="navbar-nav ms-auto flex-nowrap">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./second-landing-breakfast.html" class="nav-link"
+                  >Breakfast</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./second-landing-lunch.html" class="nav-link">Lunch</a>
+              </li>
+              <li class="nav-item">
+                <a href="./second-landing-dinner.html" class="nav-link"
+                  >Dinner</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./second-landing-drinks.html" class="nav-link">Beer</a>
+              </li>
+              <li class="nav-item">
+                <a href="./second-landing-desserts.html" class="nav-link"
+                  >Dessert</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-</header>
-<main>
-    <div id="offersCarousel" class="carousel slide" data-ride="carousel">
+      </nav>
+    </header>
+    <main>
+      <!-- <div id="offersCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#offers" data-slide-to="0" class="active"></li>
             <li data-target="#offers" data-slide-to="1"></li>
@@ -54,13 +69,13 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="" class="img-fluid" alt="Recipe 1">
+                <img src="./assets/images/breakfast-oats.jpg" class="d-block w-100" alt="Recipe 1" height="400">
             </div>
             <div class="carousel-item">
-                <img src="" class="img-fluid" alt="Recipe 2">
+                <img src="./assets/images/messy-kitchen-workplace.jpg" class="img-fluid slidepick" alt="Recipe 2">
             </div>
             <div class="carousel-item">
-                <img src="" class="img-fluid" alt="Recipe 3">
+                <img src="./assets/images/Queen's-Cookies.jpg" class="img-fluid slidepick" alt="Recipe 3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#offersCarousel" role="button" data-slide="prev">
@@ -71,52 +86,167 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </a>
-    </div>
-</main>
-<footer class="bg-dark text-white text-center recipe-step-title">
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">The Messy Kitchen</h5>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, adipisci atque consequuntur corporis cum eum eveniet facilis, iure odio officiis qui tempora! Aut cumque dolores, est exercitationem illo praesentium totam.
-                </p>
-            </div>
-            <div class="col-lg-3 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled mb-0">
-                    <li><a href="#" class="text-white">About</a></li>
-                    <li><a href="#" class="text-white">Recipes</a></li>
-                    <li><a href="#" class="text-white">Refer a friend</a></li>
-                    <li><a href="#" class="text-white">Privacy Policy</a></li>
-                    <li><a href="#" class="text-white">Terms and Conditions</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Social Media</h5>
-                <ul class="list-unstyled mb-0">
-                    <li><a href=" http://www.facebook.com/" class="text-white">Facebook</a></li>
-                    <li><a href="https://twitter.com/intent/tweet" class="text-white">Twitter</a></li>
-                    <li><a href=" http://instagram.com/" class="text-white">Instagram</a></li>
-                    <li><a href="http://pinterest.com/" class="text-white">Pinterest</a></li>
-                </ul>
-            </div>
+    </div> -->
+      <!-- landing page -->
+
+      <div class="landing-page">
+        <div class="wrapper">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center text-center h-100"
+          >
+            <h1 className="display-1 animated zoomIn">
+              Welcome To The Messy Kitchen
+            </h1>
+            <p className="animated zoomIn">
+              On this page we feature recipes for the real life cook in real
+              life kitchen settings!
+            </p>
+          </div>
         </div>
-    </div>
-    <div class="text-center p-3">
+      </div>
+
+      <!-- Sections -->
+      <div class="container mt-4 mb-4">
+        <h4>Recipes we choose For you</h4>
+        <br />
+        <div class="row">
+          <div class="col-sm-2">
+            <a href="/pancake.html">
+              <img
+                class="rounded-circle hover-shadow"
+                alt="180x180"
+                src="./assets/images/pancakes-square.jpeg"
+                height="180"
+                width="180"
+                data-holder-rendered="true"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-2">
+           <a href="/oatmeal.html">
+            <img
+            class="rounded-circle hover-shadow"
+            alt="180x180"
+            src="./assets/images/oatmeal-square.jpeg"
+            height="180"
+            width="180"
+            data-holder-rendered="true"
+          />
+           </a>
+          </div>
+
+          <div class="col-sm-2">
+           <a href="/hamburger.html">
+            <img
+            class="rounded-circle hover-shadow"
+            alt="180x180"
+            src="./assets/images/hamburger.jpeg"
+            height="180"
+            width="180"
+            data-holder-rendered="true"
+          />
+           </a>
+          </div>
+
+          <div class="col-sm-2">
+            <a href="/beer1.html">
+                <img
+              class="rounded-circle hover-shadow"
+              alt="180x180"
+              src="./assets/images/beer-square.jpeg"
+              height="180"
+              width="180"
+              data-holder-rendered="true"
+            />
+            </a>
+          </div>
+
+          <div class="col-sm-2">
+            <a href="pizza.html">
+                <img
+              class="rounded-circle hover-shadow"
+              alt="180x180"
+              src="./assets/images/pizza-square.jpeg"
+              height="180"
+              width="180"
+              data-holder-rendered="true"
+            />
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <a href="pizza.html">
+                <img
+              class="rounded-circle hover-shadow"
+              alt="180x180"
+              src="./assets/images/chiffon-cake.jpg"
+              height="180"
+              width="180"
+              data-holder-rendered="true"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white text-center recipe-step-title">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">The Messy Kitchen</h5>
+            <p>
+              Hope you enjoy all of our recipes and follow us.
+            </p>
+          </div>
+          <div class="col-lg-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="text-white">About</a></li>
+              <li><a href="#" class="text-white">Recipes</a></li>
+              <li><a href="#" class="text-white">Refer a friend</a></li>
+              <li><a href="#" class="text-white">Privacy Policy</a></li>
+              <li><a href="#" class="text-white">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Social Media</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href=" http://www.facebook.com/" class="text-white"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com/intent/tweet" class="text-white"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a href=" http://instagram.com/" class="text-white"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="http://pinterest.com/" class="text-white">Pinterest</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3">
         &copy; 2021 Copyright
         <a href="#" class="text-light">The-Messy-Kitchen.com</a>
-    </div>
-</footer>
-<script src="./assets/js/bootstrap.min.js"></script>
-<script>
-    let offersCarousel = document.querySelector('#offersCarousel')
-    let carousel = new bootstrap.Carousel(offersCarousel, {
+      </div>
+    </footer>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script>
+      let offersCarousel = document.querySelector("#offersCarousel");
+      let carousel = new bootstrap.Carousel(offersCarousel, {
         interval: 5000,
         slide: true,
         touch: true,
-        wrap: false
-    })
-</script>
-</body>
+        wrap: false,
+      });
+    </script>
+  </body>
 </html>
